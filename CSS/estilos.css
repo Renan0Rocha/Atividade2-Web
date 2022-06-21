@@ -2,13 +2,21 @@
     margin: 0;
     padding: 0;
   }
-
+.centralizar{
+  height: 500px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
 .header {
 
-    width:auto; /* box quadrado */
-    height:100px;  /* box quadrado */
+    width:auto;
+    height:100px;  
     background-color: rgb(255, 255, 255);
-    background-image: linear-gradient( to bottom, rgb(85, 43, 43), black  )
+    background-image: linear-gradient( to bottom, rgb(39, 36, 36), black  )
   }
 #logo {
   width: 150px;
@@ -17,7 +25,38 @@
   margin-left: 150px;
 }
 #titulo {
+  font-family: l;
   color: rgb(132, 255, 0);
   margin-top: -95px;
   margin-left: 280px;
+}
+#introduction {
+  width: auto;
+  height: 500px;
+  background-color: yellow;
+  background-image: linear-gradient( to bottom, yellow, rgb(210, 210, 21)  )
+}
+#fotoPerfil {
+  width: 400px;
+  height: 550px;
+  margin-top: -50px;
+  margin-right: -410px;
+  float: right;
+}
+#fotoPerfil2 {
+  width: 400px;
+  height: 550px;
+  margin-top: -50px;
+  float: right;
+}
+
+@font-face{
+  font-family: lemonmilk;
+  src: url('/Fonts/LEMONMILK-BoldItalic.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#Hello {
+  font-family: lemonmilk;
 }
