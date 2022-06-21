@@ -49,7 +49,12 @@
   margin-top: -50px;
   float: right;
 }
-
+.boxInicial {
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  box-sizing: border-box;
+}
 @font-face{
   font-family: lemonmilk;
   src: url('/Fonts/LEMONMILK-BoldItalic.otf') format('truetype');
