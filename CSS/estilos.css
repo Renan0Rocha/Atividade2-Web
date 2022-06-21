@@ -2,3 +2,22 @@
     margin: 0;
     padding: 0;
   }
+
+.header {
+
+    width:auto; /* box quadrado */
+    height:100px;  /* box quadrado */
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient( to bottom, rgb(85, 43, 43), black  )
+  }
+#logo {
+  width: 150px;
+  height: 150px;
+  margin-top: -24px;
+  margin-left: 150px;
+}
+#titulo {
+  color: rgb(132, 255, 0);
+  margin-top: -95px;
+  margin-left: 280px;
+}
