@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
   }
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kdam+Thmor+Pro&display=swap');
-  
+  @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+body{
+  width: auto;
+}
 .centralizar{
   height: 500px;
   display: -webkit-flex;
@@ -27,7 +30,7 @@
   margin-left: 150px;
 }
 #titulo {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Kdam Thmor Pro', sans-serif;
   color: rgb(132, 255, 0);
   margin-top: -95px;
   margin-left: 280px;
@@ -63,7 +66,7 @@
   box-sizing: border-box;
 }
 #Hello {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Kdam Thmor Pro', sans-serif;
   font-size: 300%;
   animation-duration: 3s;
   animation-name: esmaecerDireita;
@@ -93,7 +96,7 @@
 /*MEIO*/
 .mid {
   width: auto;
-  height: 500px;
+  height: 1200px;
   background-color: rgb(32, 46, 46);
   background-image: linear-gradient( to bottom, rgb(44, 53, 54), rgb(31, 31, 30)  )
 }
@@ -107,13 +110,13 @@
   margin-top: 100px;
   width: 1500px;
   height: 3px;
-  margin-left: 100px;
+  margin-left: 10%;
 }
 #iconeDev{
   width: 80px;
   height: 80px;
   margin-top: 80px;
-  margin-left: 300px;
+  margin-left: 20%;
   animation-duration: 3s;
   animation-name: esmaecerDireitaImg;
 }
@@ -134,8 +137,6 @@
   animation-name: esmaecerDireitaImg;
 }
 
-
-
 @keyframes esmaecerDireitaImg {
   from {
     opacity: 0%;
@@ -144,4 +145,31 @@
   to {
     opacity: 100%;
   }
+}
+#textMid1 {
+  width: 300px;
+  height: 500px;
+  font-size: 150%;
+  margin-top: 2%;
+  margin-left: 14%;
+  text-align: justify;
+  color: white;
+}
+#textMid2 {
+  width: 300px;
+  height: 500px;
+  font-size: 150%;
+  margin-left: 42%;
+  margin-top: -26%;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+}
+#textMid3 {
+  width: 300px;
+  height: 500px;
+  font-size: 150%;
+  margin-left: 70%;
+  margin-top: -26%;
+  text-align: justify;
+  color: rgb(240, 238, 238);
 }
