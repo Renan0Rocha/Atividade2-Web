@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
   }
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kdam+Thmor+Pro&display=swap');
+  
 .centralizar{
   height: 500px;
   display: -webkit-flex;
@@ -25,11 +27,13 @@
   margin-left: 150px;
 }
 #titulo {
-  font-family: l;
+  font-family: 'Bebas Neue', cursive;
   color: rgb(132, 255, 0);
   margin-top: -95px;
   margin-left: 280px;
 }
+
+/*INTRODUÇÃO - FOTO PERFIL*/
 #introduction {
   width: auto;
   height: 500px;
@@ -49,19 +53,95 @@
   margin-top: -50px;
   float: right;
 }
+
+/*TÍTULO - ANIMAÇÃO*/
 .boxInicial {
-  width: 500px;
+  width: 1050px;
   height: 100px;
+  padding: 150px;
   text-align: center;
   box-sizing: border-box;
 }
-@font-face{
-  font-family: lemonmilk;
-  src: url('/Fonts/LEMONMILK-BoldItalic.otf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+#Hello {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 300%;
+  animation-duration: 3s;
+  animation-name: esmaecerDireita;
+}
+@keyframes esmaecerDireita {
+  from {
+    opacity: 0%;
+    margin-left: -100px;
+  }
+
+  to {
+    opacity: 100%;
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .boxInicial {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .boxInicial {
+    width: 100%;
+  }
 }
 
-#Hello {
-  font-family: lemonmilk;
+/*MEIO*/
+.mid {
+  width: auto;
+  height: 500px;
+  background-color: rgb(32, 46, 46);
+  background-image: linear-gradient( to bottom, rgb(44, 53, 54), rgb(31, 31, 30)  )
+}
+#lineMid{
+  background-color: yellow;
+  padding-top: 3px;
+  width: auto;
+}
+#lineMidSimple{
+  background-color: rgb(255, 255, 255);
+  margin-top: 100px;
+  width: 1500px;
+  height: 3px;
+  margin-left: 100px;
+}
+#iconeDev{
+  width: 80px;
+  height: 80px;
+  margin-top: 80px;
+  margin-left: 300px;
+  animation-duration: 3s;
+  animation-name: esmaecerDireitaImg;
+}
+#iconeVideo{
+  width: 80px;
+  height: 80px;
+  margin-top: 80px;
+  margin-left: 460px;
+  animation-duration: 3s;
+  animation-name: esmaecerDireitaImg;
+}
+#iconeManutencao{
+  width: 80px;
+  height: 80px;
+  margin-top: 80px;
+  margin-left: 430px;
+  animation-duration: 3s;
+  animation-name: esmaecerDireitaImg;
+}
+
+
+
+@keyframes esmaecerDireitaImg {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
 }
